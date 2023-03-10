@@ -1,0 +1,69 @@
+.subject{
+    width: 100%;
+}
+
+.subject-div{
+    text-align: center;
+    padding: 1%;
+    margin: 0;
+    animation: colour-change 0.5s  infinite ease-in-out;
+
+}
+body{
+    background-color: #000;
+}
+
+.snorlax{
+    position: relative;
+    width: 20%;
+    bottom: 500px;
+    left:300px;
+    opacity: 0.5;
+    animation: traversal-1 1s 0.2s infinite ease-in-out;
+}
+.avatar{
+    position: relative;
+    width: 20%;
+    bottom: 500px;
+    left: 2000px;
+    opacity: 0.5;
+    animation: traversal-2 1s 0.2s infinite ease-in-out;
+}
+
+@keyframes traversal-1
+{
+    0%{
+        bottom: 1500px;
+    }
+    50%{
+        bottom: 500px;
+    }
+    100%{
+        bottom: 1500px;
+    }
+}
+
+@keyframes traversal-2
+{
+    0%{
+        left: 1500px;
+    }
+    50%{
+        left: 1px;
+    }
+    100%
+    {
+        left: 1500px;
+    }
+}
+
+@keyframes colour-change {
+    to{
+        background-color: blue;
+    }
+
+    from{
+        background-color: red;
+    }
+}
+

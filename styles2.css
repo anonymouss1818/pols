@@ -1,0 +1,32 @@
+body{
+    background-color: #000;
+}
+
+div
+{
+    text-align: center;
+    padding: 20%;
+}
+
+button{
+    padding: 0.3% 2%;
+    font-family: 'Roboto Mono', monospace;
+    transition: 0.4s;
+}
+
+button:hover
+{
+    background-color: #000;
+    color:#fff ; 
+    border: #fff 1px solid;
+
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover{
+    color: #fff;
+}
